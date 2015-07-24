@@ -1,0 +1,5 @@
+*.swp
+Thumbs.db
+
+/elm/elm-stuff
+/html/js/elm

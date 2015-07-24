@@ -1,2 +1,2 @@
 #!/bin/sh
-elm make --output ../html/js/elm/audio.js src/Main.elm
+elm make --output ../html/js/elm/todo.js src/Main.elm
