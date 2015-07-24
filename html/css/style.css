@@ -168,7 +168,7 @@ label[for='toggle-all'] {
 }
 
 #toggle-all:before {
-    content: 'Å‚';
+    content: '¬ª';
     font-size: 28px;
     color: #d9d9d9;
     padding: 0 25px 7px;
@@ -228,7 +228,7 @@ label[for='toggle-all'] {
 }
 
 #todo-list li .toggle:after {
-    content: '?';
+    content: '‚úî';
     /* 40 + a couple of pixels visual adjustment */
     line-height: 43px;
     font-size: 20px;
@@ -283,7 +283,7 @@ label[for='toggle-all'] {
 }
 
 #todo-list li .destroy:after {
-    content: '?';
+    content: '‚úñ';
 }
 
 #todo-list li:hover .destroy {
@@ -481,7 +481,7 @@ hr {
 }
 
 .quote p:before {
-    content: 'Åg';
+    content: '‚Äú';
     font-size: 50px;
     opacity: .15;
     position: absolute;
@@ -490,7 +490,7 @@ hr {
 }
 
 .quote p:after {
-    content: 'Åh';
+    content: '‚Äù';
     font-size: 50px;
     opacity: .15;
     position: absolute;

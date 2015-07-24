@@ -1,7 +1,7 @@
 (function() { "use strict";
 	var storedState = localStorage.getItem('elm-todo-state');
 	var startingState = storedState ? JSON.parse(storedState) : null;
-	var todomvc = Elm.fullscreen(Elm.Main, { getStorage: startingState });
+	var todomvc = Elm.embed(Elm.Main, document.getElementById("main"), { getStorage: startingState });
 	todomvc.ports.focus.subscribe(function(selector) {
 		setTimeout(function() {
 			var nodes = document.querySelectorAll(selector);

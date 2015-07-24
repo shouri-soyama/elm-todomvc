@@ -218,8 +218,8 @@ controls address visibility tasks =
                 , visibilitySwap address "#/complated" "Complated" visibility
                 ]
             , Html.button
-                [ HA.class "clear-complated"
-                , HA.id "clear-complated"
+                [ HA.class "clear-completed"
+                , HA.id "clear-completed"
                 , HA.hidden (tasksComplated == 0)
                 , HE.onClick address DeleteComplate
                 ]
